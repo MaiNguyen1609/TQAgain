@@ -36,7 +36,12 @@
 =======
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
 >>>>>>> f46ed140eb164dd0d7ebcfa3305c8c2b1a285250
+=======
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+>>>>>>> TestingAg
             this.SuspendLayout();
             // 
             // button1
@@ -81,15 +86,34 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "label1";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(72, 39);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(96, 20);
+            this.textBox1.TabIndex = 4;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(191, 39);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(124, 20);
+            this.textBox2.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 259);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
 =======
+=======
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+>>>>>>> TestingAg
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
 >>>>>>> f46ed140eb164dd0d7ebcfa3305c8c2b1a285250
@@ -112,7 +136,12 @@
 =======
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label1;
+<<<<<<< HEAD
 >>>>>>> f46ed140eb164dd0d7ebcfa3305c8c2b1a285250
+=======
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+>>>>>>> TestingAg
     }
 }
 

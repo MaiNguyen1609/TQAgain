@@ -18,9 +18,15 @@ namespace FormTesting
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             int a = int.Parse(textBox1.Text);
             int b = int.Parse(textBox2.Text);
             int c = a + b;
+=======
+            int d = int.Parse(textBox1.Text);
+            int g = int.Parse(textBox2.Text);
+            int f = d + g;
+>>>>>>> TestingAg
         }
     }
 }
